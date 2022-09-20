@@ -46,18 +46,17 @@ public class Main {
         minimum = minimum <= k? minimum : k;
         System.out.println("Minimum number is :" + minimum);
 
-        //int res = x > y ? x  : y;
-        //System.out.println("res is :" + res);
 
         // erankyuni hashvark
         x = 10;
-        y = 10;
-        z = 14;
-        int b = (x + y + z) / 2;
-        int S = (int)Math.sqrt(b*(b-x)*(b-y)*(b-z)); // kam senc
-        int M = (b - x) * (b - y);   // kam senc
-        System.out.println("S = " + S);
-        System.out.println("M = " + M);
+        y = 12;
+        z = 11;
+        if(x + y > z && x + z > y && y + z > x) {
+            System.out.println("You can get a triangle");
+        }
+        else {
+            System.out.println("You can't get a triangle");
+        }
 
 	    //  weekday
         int day = 5;
