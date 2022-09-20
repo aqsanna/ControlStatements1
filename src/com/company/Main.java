@@ -47,7 +47,7 @@ public class Main {
         System.out.println("Minimum number is :" + minimum);
 
 
-        // erankyuni hashvark
+        // triangle homework
         x = 10;
         y = 12;
         z = 11;
